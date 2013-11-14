@@ -7,7 +7,7 @@ module.exports = function(config) {
     // base path, that will be used to resolve files and exclude
     basePath: '',
 
-    plugins: [ 'karma-mocha', 'karma-requirejs' ],
+    plugins: [ 'karma-mocha', 'karma-chrome-launcher', 'karma-firefox-launcher', 'karma-requirejs' ],
 
 
     // frameworks to use

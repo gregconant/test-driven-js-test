@@ -13,7 +13,7 @@ requirejs.config({
                    baseUrl: '/base/src',
 
                    paths: {
-                      "client": "client.js",
+                     "client": "client.js",
                      "nonexistant": "nonexistant.js"
                      //"eve": "vendor_client/raphael/eve",
                      //'raphael-core' : 'vendor_client/raphael/raphael.core',
